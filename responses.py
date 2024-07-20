@@ -1,1 +1,1 @@
-homepage = r"C:\Users\ilove\OneDrive\Desktop\Projects\website\homepage.html"
+homepage = r"Homepage.html"
