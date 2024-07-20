@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+
+<style>
+.name{
+    text-align: center;
+    color: rgb(247, 29, 221);
+    font-style:italic;
+    font-size: 50px;
+    font-weight: bold; 
+}
+#bgvid{
+    z-index: -1;
+    height: 120vh;
+    overflow: hidden;
+}
+.bkg{
+    width: 100vw;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.left{
+    width: 20vw;
+    border: 2px solid rgb(255, 169, 245);
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    direction: rtl;
+    scroll-behavior: smooth;
+    border-radius: 25px;
+    box-shadow: 6px 6px 10px;
+    /* IMPORTANT!!!!!!!!!!!! implement webkit stuff for scrollbar styling or else it wont work on mobile or smth*/
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255, 255, 255) rgb(255, 169, 245);
+}
+
+/*rgb(140, 0, 255);*/
+.left li{
+    direction: ltr;
+    border-bottom: 1px solid rgb(255, 169, 245);
+    background-color: rgba(247, 29, 222, .40);
+    height: 10vh;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding-top: 2.5vh;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bold; 
+    font-size: 20px;
+
+}
+.left li:hover{
+    background-color: rgb(255, 169, 245);
+}
+
+.middle{
+    width: 60vw;
+    height: 90vh;
+}
+.top-middle{
+    width: 100%;
+    margin-top: 2.5%;
+    height: 72.5%;
+    text-align: center;
+    color: rgb(247, 29, 221);
+    font-style:italic;
+    font-size: 30px;
+    font-weight: bold; 
+
+}
+.memeoftheday{
+    border: 1px solid  rgb(247, 29, 221);
+    margin-left: 15%;
+    width: 70%;
+    height: 50%; 
+}
+
+.bottom-middle{
+    width: 80%;
+    border: 1px solid  rgb(247, 29, 221);
+    margin-left: 10%;
+    height: 20%;
+}
+
+.right{
+    border: 1px solid  rgb(247, 29, 221);
+    width: 20vw;
+    height: 90vh;
+}
+
+.mainpage{
+    display: flex;
+
+}
+.content{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh0;}
+</style>
+
+
+
+    <div class="bkg"><video loop autoplay muted id="bgvid"><source src="cherrybackground.mp4" type="video/mp4"></video></div>
+    <div class="content"><div class="name">Memorial to my ever-inflating ego</div>
+    <div class="mainpage"> 
+
+<div class="left">
+    <li>Achievements</li>
+    <li>Discord</li>
+    <li>Email</li>
+    <li>Twitter</li>
+    <li>Youtube</li>
+    <li>Comming soon!</li>
+    <li>Comming soon!</li>
+    <li>Comming soon!</li>
+    <li>Comming soon!</li>
+    <li>Comming soon!</li>
+
+</div>
+
+<div class="middle">
+
+    <div class="top-middle">Meme of the Day
+        <div class="memeoftheday">
+    <img src="memer">
+    </div></div>
+    <div class="bottom-middle"></div>
+
+</div>
+
+
+
+
+
+
+<div class="right">
+
+</div>
+
+
+
+</div></div>
+</html>
+
+<script>
+
+
+</script>
